@@ -6,3 +6,5 @@ function myFunc() {
   position = position + velocity;
   console.log(position);
 }
+
+setInterval(myFunc, time);
